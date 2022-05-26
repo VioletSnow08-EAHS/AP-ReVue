@@ -4,17 +4,17 @@
     <div class="row">
 
       <div class="col-4">
-        <h3>AP Biology</h3>
+        <h3>Biology</h3>
         <p> {{ courseDescriptions.ap_biology }}</p>
       </div>
 
       <div class="col-4">
-        <h3>AP Chemistry</h3>
+        <h3>Chemistry</h3>
         <p> {{ courseDescriptions.ap_chemistry }}</p>
       </div>
 
       <div class="col-4">
-        <h3>AP Environmental Science</h3>
+        <h3>Environmental Science</h3>
         <p> {{ courseDescriptions.ap_environmental_science }}</p>
       </div>
 
@@ -23,13 +23,13 @@
     <!--Buttons-->
     <div class="row">
       <div class="col-4">
-        <button type="button" class="btn btn-primary">View Course Resources</button>
+        <button type="button" class="btn btn-success">View Course Resources</button>
       </div>
       <div class="col-4">
-        <button type="button" class="btn btn-primary">View Course Resources</button>
+        <button type="button" class="btn btn-success">View Course Resources</button>
       </div>
       <div class="col-4">
-        <button type="button" class="btn btn-primary">View Course Resources</button>
+        <button type="button" class="btn btn-success">View Course Resources</button>
       </div>
     </div>
   </div>

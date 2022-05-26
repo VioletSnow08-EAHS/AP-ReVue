@@ -11,6 +11,10 @@
       <SciencePart1Home/>
       <br>
       <SciencePart2Home/>
+      <br>
+      <LanguagePart1Home />
+      <br>
+      <LanguagePart2Home />
 
     </div>
 
@@ -22,10 +26,12 @@ import courseDescriptions from "@/assets/course_descriptions.json"
 import MathHome from "@/components/Home/MathHome";
 import SciencePart1Home from "@/components/Home/SciencePart1Home";
 import SciencePart2Home from "@/components/Home/SciencePart2Home";
+import LanguagePart1Home from "@/components/Home/LanguagePart1Home";
+import LanguagePart2Home from "@/components/Home/LanguagePart2Home";
 
 export default {
   name: 'Home',
-  components: {SciencePart2Home, SciencePart1Home, MathHome},
+  components: {LanguagePart2Home, LanguagePart1Home, SciencePart2Home, SciencePart1Home, MathHome},
   data() {
     return {
       courseDescriptions

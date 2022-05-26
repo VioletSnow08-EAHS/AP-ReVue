@@ -19,9 +19,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  margin-top: 60px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 10px 1rem
 }
 
 body {

@@ -4,17 +4,17 @@
     <div class="row">
 
       <div class="col-4">
-        <h3>AP Calculus AB</h3>
+        <h3>Calculus AB</h3>
         <p> {{ courseDescriptions.ap_calculus_ab }}</p>
       </div>
 
       <div class="col-4">
-        <h3>AP Calculus BC</h3>
+        <h3>Calculus BC</h3>
         <p> {{ courseDescriptions.ap_calculus_bc }}</p>
       </div>
 
       <div class="col-4">
-        <h3>AP Statistics</h3>
+        <h3>Statistics</h3>
         <p> {{ courseDescriptions.ap_statistics }}</p>
       </div>
 
