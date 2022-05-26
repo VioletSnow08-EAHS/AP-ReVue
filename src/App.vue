@@ -1,10 +1,11 @@
 <template>
-  <IndexPage />
+  <IndexPage/>
 </template>
 
 <script>
 
 import IndexPage from "@/views/Home";
+
 export default {
   name: 'App',
   components: {IndexPage},
@@ -19,7 +20,10 @@ export default {
   text-align: center;
   color: white;
   margin-top: 60px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
+
 body {
   background-color: #121212 !important;
 }
