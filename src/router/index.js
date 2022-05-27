@@ -3,7 +3,7 @@ import IndexPage from "../views/Home.vue";
 import LimitsAB from "@/views/Math/calculus/ab/units/1/LimitsAB";
 
 const router = createRouter({
-	history: createWebHashHistory(),
+	history: createWebHistory(),
 	routes: [
 		{
 			path: "/math/calculus/ab/units/1/limits",
@@ -15,6 +15,10 @@ const router = createRouter({
 			name: "Index",
 			component: IndexPage,
 		},
+		{
+			path: "/:pathMatch(.*)",
+			component: IndexPage
+		}
 	],
 });
 
