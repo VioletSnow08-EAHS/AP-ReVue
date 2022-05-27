@@ -1,14 +1,17 @@
 <template>
-  <IndexPage/>
+<div>
+  <RelatedRatesAB />
+</div>
 </template>
 
 <script>
 
-import IndexPage from "@/views/Home";
 
+import LimitsAB from "@/views/Math/calculus/ab/units/1/LimitsAB";
+import RelatedRatesAB from "@/views/Math/RelatedRatesAB";
 export default {
   name: 'App',
-  components: {IndexPage},
+  components: {RelatedRatesAB},
 }
 </script>
 
